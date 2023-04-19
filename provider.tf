@@ -8,10 +8,10 @@ terraform {
 }
 
 provider "citrixadc" {
-  endpoint = var.Endpoint_Data["endpoint"]
+  endpoint = var.endpoint
   username = var.username
   password = var.password
   do_login   = true
-  partition  = var.Endpoint_Data["partitionname"]
+  partition  = var.partitionname
   
 }
