@@ -9,7 +9,7 @@ variable "partitionname" {
 }
 
 variable "subnetip" {
-  type        = number
+  type        = string
   description = "Subnet IP for the new partition"
 }
 variable "netmask" {
